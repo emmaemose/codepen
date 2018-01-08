@@ -1,0 +1,107 @@
+body{
+	width: 100%; /*960px;*/ 
+	/*margin: auto;
+	/*height: 100%; */
+	background-color: #000639;
+	font-family: Helvetica;
+	margin-top: 80px;
+	margin-left:250px; 
+	margin: ;
+} 
+
+h2  {	
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+hr {
+	width:2%;
+	margin-left: 0;
+}
+
+#content {
+	height: 350px;
+}
+
+p  {
+	font-size: 16px;
+	color: #FFFFFF;	
+	}
+
+form p {
+	font-family: roboto, arial, sans-serif;
+	font-size: 10px;
+	font-weight: 800;
+	color: #C23628;
+}
+
+#email {
+		margin-right: 5px;
+		height: 35px;
+		padding-left: 10px;
+		border-radius: 5px;
+		border: 0;
+		}
+
+#interest {
+			width: 200px;
+			height: 35px;
+			border-radius: 5px;
+			padding-left: 10px;
+			border: 0;
+			
+		}		
+
+button {
+		background-color: #5c6ac4;
+		color: #FFFFFF;
+		padding: 0px;
+		border: 0px;
+		border-radius: 5px;
+		width: 500px;
+		height: 35px;
+
+		}
+
+#foot {
+	width: 100%; /*960px;*/
+	margin: 0 auto;
+	height: 100%;
+	font-size: 12px;
+	color: white;
+	margin-left: 220px;
+}
+
+/*RESPONSIVE/
+
+/* 2 COLUMN LAYOUT */
+@media only screen and (min-width: 768px) and (max-width: 960px){
+#header { 
+		    padding: 0em;
+    		width: 100%;
+    		margin-left: 0px;	
+}
+} 
+
+
+/* 1 COLUMN LAYOUT */
+@media only screen and (max-width: 767px) { 
+
+
+#wrapper, #content  {
+					width: 100%;
+					margin: 0 auto;;
+		    		padding: 0em;
+    				}
+
+#email, #interest {
+width: 26.1%;
+}
+
+button {
+		width: 65%;
+		}
+
+}
+}
+
